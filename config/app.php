@@ -296,12 +296,17 @@ return [
             'className' => Connection::class,
             'driver' => Mysql::class,
             'persistent' => false,
-            'timezone' => 'UTC',
+            'host' => '',
+            'username' => 'admin',
+            'password' => '',
+            'database' => 'sales',
+            'encoding' => 'utf8mb4',
+            'timezone' => 'Asia/Tokyo',
 
             /*
              * For MariaDB/MySQL the internal default changed from utf8 to utf8mb4, aka full utf-8 support, in CakePHP 3.6
              */
-            //'encoding' => 'utf8mb4',
+            // 'encoding' => 'utf8mb4',
 
             /*
              * If your MySQL server is configured with `skip-character-set-client-handshake`
@@ -339,7 +344,7 @@ return [
             'className' => Connection::class,
             'driver' => Mysql::class,
             'persistent' => false,
-            'timezone' => 'UTC',
+            'timezone' => 'Asia/Tokyo',
             //'encoding' => 'utf8mb4',
             'flags' => [],
             'cacheMetadata' => true,
