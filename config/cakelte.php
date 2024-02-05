@@ -5,8 +5,9 @@ use CakeLte\Style\Sidebar;
 
 return [
     'CakeLte' => [
-        'app-name' => 'Cake<b>LTE</b>',
-        'app-logo' => 'CakeLte.cake.icon.svg',
+        'app-name' => '<b>Cyclops</b>',
+        // 'app-logo' => 'CakeLte.cake.icon.svg',
+        'app-logo' => '/img/cyclops_icon.png',
 
         'small-text' => false,
         'dark-mode' => false,
